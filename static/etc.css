@@ -13,15 +13,12 @@ body {
   background-image: url(https://dl.dropboxusercontent.com/s/i5ckyg450mhu5c7/orange_pop.gif);
   font-family: Montserrat, "Helvetica Neue", sans-serif;
   font-size: 18px;
-  color: #884c4c;
   line-height: 200%;
   padding: 10px;
 }
 .single-post h2 {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  color: #803378;
-  text-align: center;
   padding: 3px 30px 3px 30px;
 }
 
