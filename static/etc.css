@@ -16,6 +16,7 @@ updated: 04-10-2010, 11:47 GMT+7
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   text-align: center;
+  padding: 6px 0;
 }
 
 .site-header.featured-image:after {
