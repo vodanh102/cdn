@@ -607,9 +607,9 @@ span.big150 {
   cursor: pointer; }
 
 h1.entry-title {
-  font-family: Architecture,Arial;
   font-size: 2.2em;
-  line-height: 1; }
+  text-align: center;
+}
 
 .divider {
   background: url("design/line.gif") repeat-x scroll center bottom rgba(0, 0, 0, 0);
