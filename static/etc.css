@@ -89,10 +89,6 @@ input,
 select,
 textarea {
  font-family:Crimson Pro, serif !important;
- font-size:1.8em !important;
-}
-body {
- line-height:1.6em !important;
 }
 
 .bb {
