@@ -31,6 +31,104 @@ updated: 04-10-2010, 11:47 GMT+7
 
 /* =ETC STYLE
 ----------------------------------------------- */
+.sidebar {
+	opacity: .5;
+	transition: opacity .5s;
+}
+.sidebar:hover{
+	opacity: 1;
+}
+@media (min-width: 880px) {
+.sidebar > .inside-left-sidebar {
+    position: sticky;
+    position: -webkit-sticky;
+    top:30px;
+}
+}
+/* Site header CSS */
+.page-hero-content {
+    padding: 20px;
+    border: 5px solid rgba(211,211,35,0.2);
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+@media (max-width: 1200px) {
+    .page-hero-content {
+         padding: 10px;
+         margin: auto;
+    }
+}
+
+.inside-page-hero {
+    display: -ms-grid;
+    display: grid;
+    grid-template-areas: "left right";
+    -ms-grid-columns: 50% 50%;
+    grid-template-columns: 50% 50%;
+}
+
+.page-hero-content {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    grid-area: right;
+}
+
+@media (max-width: 768px) {
+    .inside-page-hero {
+        display: block;
+    }
+}
+#page {
+	-webkit-border-radius: 12px 12px 0 0;
+	-moz-border-radius: 12px 12px 0 0;
+	border-radius: 12px 12px 0 0;
+}
+
+@media screen and (max-width: 600px) {
+
+	table {
+		border: 0;
+	}
+
+	table thead {
+		display: none;
+	}
+
+	table tr {
+		margin-bottom: 10px;
+		display: block;
+		border-bottom: 2px solid #ddd;
+	}
+
+	table td {
+		display: block;
+		text-align: right;
+		font-size: 13px;
+		border-bottom: 1px dotted #ccc;
+	}
+
+	table td:last-child {
+		border-bottom: 0;
+	}
+
+	table td:before {
+		content: attr(data-label);
+		float: left;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+}
+.blockquote::before, .blockquote::after, blockquote::before, blockquote::after {
+	width: 181px;
+	content: "";
+	border: 1px solid #ff7800;
+	display: block;
+	margin: 60px auto;
+}
+blockquote, .blockquote {
+	text-align: center;
+}
 body {
     line-height: calc(28 / 18);
 }
@@ -207,12 +305,6 @@ table tr.bg td {
   padding: 3px 5px;
   position: absolute;
   right: 10px; }
-
-.fl {
-  float: left; }
-
-.fr {
-  float: right; }
 
 hr {
   background: none repeat scroll 0 0 #DFDFDF;
