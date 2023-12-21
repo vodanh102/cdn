@@ -677,7 +677,11 @@ span.big150 {
   cursor: pointer; }
 
 h1.entry-title {
-  text-align: center;
+  padding: 0.8em 0;
+  text-align: right;
+}
+.entry-header > .entry-meta {
+  padding: 1em 0;
 }
 
 .divider {
