@@ -95,7 +95,7 @@ updated: 04-10-2010, 11:47 GMT+7
 		font-weight: bold;
 	}
 }
-.blockquote::before, .blockquote::after, blockquote::before, blockquote::after {
+.blockquote::before, .blockquote::after, {
 	width: 181px;
 	content: "";
 	border: 1px solid #ff7800;
