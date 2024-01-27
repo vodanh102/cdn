@@ -4,6 +4,50 @@ Css Advance Elements
 version: 1.0.1
 updated: 04-10-2010, 11:47 GMT+7
 ============================== */
+/* crimson-pro-regular - vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://cdn-ec4.pages.dev/static/crimson-pro-v24-vietnamese-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* crimson-pro-600 - vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://cdn-ec4.pages.dev/static/crimson-pro-v24-vietnamese-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* crimson-pro-600italic - vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Crimson Pro';
+  font-style: italic;
+  font-weight: 600;
+  src: url('https://cdn-ec4.pages.dev/static/crimson-pro-v24-vietnamese-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* crimson-pro-800 - vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Crimson Pro';
+  font-style: normal;
+  font-weight: 800;
+  src: url('https://cdn-ec4.pages.dev/static/crimson-pro-v24-vietnamese-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* crimson-pro-800italic - vietnamese */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Crimson Pro';
+  font-style: italic;
+  font-weight: 800;
+  src: url('https://cdn-ec4.pages.dev/static/crimson-pro-v24-vietnamese-800italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 
 /* =ETC STYLE
 ----------------------------------------------- */
